@@ -5,15 +5,27 @@
 
 /* Sticky footer styles
 -------------------------------------------------- */
-html {
-}
-
-body {
-  /* Margin bottom by footer height */
-}
-
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.social-icon {
+  width: 16px;
+  padding-right: 5px;
+}
+
+/* Change blue to gray on title links
+-------------------------------------------------- */
+a.navbar-brand {
+  color: grey;  
+}
+
+a.nav-link {
+  color: black;  
+}
+
+span.post-date {
+  color: gray;
 }
